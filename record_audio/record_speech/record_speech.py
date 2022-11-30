@@ -22,7 +22,7 @@ with microphone as source:
     # (an AudioSource instance) to account for ambient noise.
     recognizer.adjust_for_ambient_noise(source)
 
-    print('Please say something..')
+    print('Please say something')
 
     audio = recognizer.listen(source)
 
