@@ -1,2 +1,7 @@
 To work with the Requests library in Python, you must import the appropriate module. 
 You can do this simply by adding the following code at the beginning of your script:
+o develop this application, we need two modules- requests and JSON. The requests
+module makes an HTTP request to the specified web page using Python and returns a response object. There's no need to manually add query strings to your URLs, or to form-encode your POST data. 
+We can install this using the pip tool.
+
+

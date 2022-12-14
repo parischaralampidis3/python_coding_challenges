@@ -49,8 +49,8 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
-
+#envirroment variables
+venv/*
 
 # Sphinx documentation
 docs/_build/
