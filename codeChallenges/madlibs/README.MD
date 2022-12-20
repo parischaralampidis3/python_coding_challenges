@@ -1,7 +1,7 @@
 [X] import modules.
 [X] set an introduction for the game.
-[] set a validaytion
-[] set a sentence with a space.
+[X] set a validation for user choise.
+[X] set a sentence with a space.
 [] give some  responsd choices to fill the gap.
 
 []set a logic tha chooses the right option .
