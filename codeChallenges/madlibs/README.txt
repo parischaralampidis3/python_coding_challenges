@@ -13,10 +13,11 @@
 [X] if user selects Yes then let him play again, otherwise Not exit the app.
 
 [X]create a score count for the user.
-[]if the user succeed on the first game continue to the next stage.
-[]if the user ends the game print final score.
+[X]if the user ends the game print final score.
 
 future suggestions
+
+[]code a better solution to remove global variable from score function
 
 [] set difficulty stages 
 [] ability for two player option

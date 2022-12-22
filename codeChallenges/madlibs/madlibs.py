@@ -1,25 +1,22 @@
-#need to fix score bug
+#score fuctionality
 score = 0 
 def showScore():
     global score
     score = score+10
     print(score)
+showScore()
 
-showScore()
-showScore()
 #call introduction function for the game
 def introduction():
     print ("Welcome at the madlibs game!\n")
     print("Please fill the gaps, while type the right number of the choise.\n")
 introduction()
+
 #add a function that you will be able to call inside the game.
 def enter_stage():
      print("Your challenge comes.")
      print("type the number of the correct choice.") 
 enter_stage()
-
-
-
 
 #this is the main block function,for the first the question challenge for the game.
 def first_stage(attr1,attr2,attr3):   
@@ -28,7 +25,6 @@ def first_stage(attr1,attr2,attr3):
     print("2 [count] \n")
     print("3 [pound]\n")
     
-
     first_stage = input ("> ")
     if first_stage == " ":
         print("Sorry, i dont understand")
@@ -41,8 +37,7 @@ def first_stage(attr1,attr2,attr3):
     else:
         print("sorry i don't understand")
         exit(0)
-        
-
+    
 first_stage("1","2","3")
 
 #validate the choice of the user
@@ -80,7 +75,6 @@ def second_stage(attr1,attr2,attr3):
     else:
         print("sorry i don't understand")
         exit(0)
-
 second_stage("1","2","3")
 input_choice("Yes","yes","No","no")
 
@@ -127,7 +121,6 @@ def fourth_stage(attr1, attr2, attr3):
     else:
         print("sorry i don't understand")
         exit(0) 
-
 fourth_stage("1","2","3")
 input_choice("Yes","yes","No","no")
 
@@ -153,7 +146,6 @@ def fifth_stage(attr1, attr2, attr3):
     else:
         print("sorry i don't understand")
         exit(0) 
-
 fifth_stage("1","2","3")
 
 
