@@ -1,0 +1,11 @@
+""
+"import time
+import datetime
+
+curr = time.time()
+print ("Current time in seconds since epoch =  %d" % curr )
+
+curr_time = time.ctime(1672434621)
+
+print ("Current time :", curr_time)
+print(time.gmtime(0))
