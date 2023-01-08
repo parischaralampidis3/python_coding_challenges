@@ -10,3 +10,5 @@ The countdown timer lets you have the feature of start and stop countdown
 [X]use sleep() method? 
 []when the timer ends print a warning
 [] before the timer ends ask for a repeat or end the program
+
+[]create gui for timer
