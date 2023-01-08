@@ -1,0 +1,12 @@
+JARVIS project
+---------------
+
+this project enables speech recognition from the user in order to execute automated tasks through libraries and manipulated apis.
+[] create an .env file in order to store api passwords and information
+[] import speech recognition module
+[] create a program that enables microphone
+[] gets an audio input from a user
+[] executes an order 
+
+
+
