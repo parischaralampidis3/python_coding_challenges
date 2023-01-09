@@ -2,11 +2,31 @@ JARVIS project
 ---------------
 
 this project enables speech recognition from the user in order to execute automated tasks through libraries and manipulated apis.
-[] create an .env file in order to store api passwords and information
-[] import speech recognition module
-[] create a program that enables microphone
+
+[X] create an .env file in order to store api passwords and information
+
+[] import modules
+    [] what king of modules are needed?
+    [] pip install SpeechRecognition
+    [] pip install pyAudio
+    [] pip install pyttsx3
+    [] pip install requests
+    [] pip install pywhatkit
+    [] tkinter
+
+[] create a program that enables speech
+    [] instatiate a method for allow speech functionality
+       
 [] gets an audio input from a user
-[] executes an order 
+    [] instantiate microphone for allow microphone functionality
+    [] set ambient for clean speech input
+
+[]  make a try/catch function that test input and display result or displays error code
+
+[] executes an order to test functionality
+
+[] add some util phrases for browser to be able to respond
+
 
 
 
